@@ -41,7 +41,7 @@ public class FindElement {
         int j = 0;
         while (j < links.size()) {
             String text = links.get(j).getText();
-            if(text.length()!=0) { // to print only non-null strings
+            if(text.length()!=0) { // to print only non-null strings i.e. not to print empty <a> tags
                 System.out.print(text + "  ");
                 System.out.println(text.length());
             }
